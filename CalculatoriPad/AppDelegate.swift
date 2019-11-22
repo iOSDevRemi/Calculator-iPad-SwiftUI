@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  CalculatoriPad
-//
-//  Created by daniel d4 on 15/11/2019.
-//  Copyright © 2019 daniel d4. All rights reserved.
-//
+
 
 import UIKit
 
