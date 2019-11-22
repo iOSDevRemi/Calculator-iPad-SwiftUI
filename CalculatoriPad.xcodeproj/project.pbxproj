@@ -13,6 +13,11 @@
 		553E927F237F3D1000E63E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 553E927E237F3D1000E63E53 /* Assets.xcassets */; };
 		553E9282237F3D1000E63E53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 553E9281237F3D1000E63E53 /* Preview Assets.xcassets */; };
 		553E9285237F3D1000E63E53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553E9283237F3D1000E63E53 /* LaunchScreen.storyboard */; };
+		553E928D237F413F00E63E53 /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553E928C237F413F00E63E53 /* NumberView.swift */; };
+		553E928F237F461000E63E53 /* CalculationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553E928E237F461000E63E53 /* CalculationState.swift */; };
+		553E9291237F574700E63E53 /* FunctionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553E9290237F574700E63E53 /* FunctionView.swift */; };
+		553E9293237F5BF400E63E53 /* ActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553E9292237F5BF400E63E53 /* ActionView.swift */; };
+		557684892380552E0056F120 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557684882380552E0056F120 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		553E9281237F3D1000E63E53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		553E9284237F3D1000E63E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		553E9286237F3D1000E63E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		553E928C237F413F00E63E53 /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberView.swift; sourceTree = "<group>"; };
+		553E928E237F461000E63E53 /* CalculationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationState.swift; sourceTree = "<group>"; };
+		553E9290237F574700E63E53 /* FunctionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionView.swift; sourceTree = "<group>"; };
+		553E9292237F5BF400E63E53 /* ActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionView.swift; sourceTree = "<group>"; };
+		557684882380552E0056F120 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				553E9278237F3D0900E63E53 /* AppDelegate.swift */,
 				553E927A237F3D0900E63E53 /* SceneDelegate.swift */,
 				553E927C237F3D0900E63E53 /* ContentView.swift */,
+				553E928C237F413F00E63E53 /* NumberView.swift */,
+				553E928E237F461000E63E53 /* CalculationState.swift */,
+				553E9290237F574700E63E53 /* FunctionView.swift */,
+				553E9292237F5BF400E63E53 /* ActionView.swift */,
+				557684882380552E0056F120 /* MenuView.swift */,
 				553E927E237F3D1000E63E53 /* Assets.xcassets */,
 				553E9283237F3D1000E63E53 /* LaunchScreen.storyboard */,
 				553E9286237F3D1000E63E53 /* Info.plist */,
@@ -146,9 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				553E928F237F461000E63E53 /* CalculationState.swift in Sources */,
+				557684892380552E0056F120 /* MenuView.swift in Sources */,
 				553E9279237F3D0900E63E53 /* AppDelegate.swift in Sources */,
 				553E927B237F3D0900E63E53 /* SceneDelegate.swift in Sources */,
 				553E927D237F3D0900E63E53 /* ContentView.swift in Sources */,
+				553E9291237F574700E63E53 /* FunctionView.swift in Sources */,
+				553E928D237F413F00E63E53 /* NumberView.swift in Sources */,
+				553E9293237F5BF400E63E53 /* ActionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosdevremi.CalculatoriPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -316,7 +336,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosdevremi.CalculatoriPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
